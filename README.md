@@ -21,4 +21,5 @@ handler.write("player_value")
        .value("value", 0)
        .flush();
 // Shutdown client at last.
+handler.shutdown();
 ```
