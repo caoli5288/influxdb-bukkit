@@ -1,0 +1,3 @@
+name: InfluxDB
+main: com.mengcraft.influxdb.Main
+version: 0.1
