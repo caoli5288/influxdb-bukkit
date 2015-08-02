@@ -1,5 +1,6 @@
 # InfluxDB-Bukkit
 Bukkit plugin libraries for InfluxDB. See [influxdb-java](https://github.com/influxdb/influxdb-java).
+This is a sample project [honeybee](https://github.com/caoli5288/honeybee).
 
 ## Developer
 ```java
