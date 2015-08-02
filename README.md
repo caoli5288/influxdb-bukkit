@@ -1,6 +1,5 @@
 # InfluxDB-Bukkit
-Bukkit plugin libraries for InfluxDB. See [influxdb-java](https://gith
-ub.com/influxdb/influxdb-java)
+Bukkit plugin libraries for InfluxDB. See [influxdb-java](https://github.com/influxdb/influxdb-java).
 
 ## Developer
 ```java
