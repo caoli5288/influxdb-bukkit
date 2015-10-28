@@ -1,11 +1,13 @@
 package com.mengcraft.influxdb;
 
-import java.util.concurrent.TimeUnit;
-
 import org.influxdb.InfluxDB;
 import org.influxdb.dto.Point;
 import org.influxdb.dto.Pong;
 import org.influxdb.impl.InfluxDBImpl;
+
+import java.util.concurrent.TimeUnit;
+
+import static org.influxdb.dto.Point.measurement;
 
 public class InfluxHandler {
 
@@ -67,7 +69,7 @@ public class InfluxHandler {
 
         private Writer(InfluxHandler handler, String table) {
             this.handler = handler;
-            this.builder = new Point.Builder(table);
+            this.builder = measurement(table);
         }
 
         public Writer value(String name, Object value) {

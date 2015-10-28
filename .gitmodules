@@ -1,0 +1,3 @@
+[submodule "influxdb-java"]
+	path = influxdb-java
+	url = git@github.com:influxdb/influxdb-java.git
